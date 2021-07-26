@@ -9,10 +9,16 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
-        <?php echo $content; ?>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <div class="container">
+            <a href="/" class="navbar-brand h1">FW</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <?php echo $content; ?>
+        </div>
     </div>
-</div>
 </body>
 </html>
